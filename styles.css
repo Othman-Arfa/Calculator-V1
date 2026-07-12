@@ -1,0 +1,43 @@
+.calculator {
+    width: 320px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 4px solid #483232;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+}
+h3 {
+    text-align: center;
+}
+.screen {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box; /* 💡 Bach l-input ma-y-khrjch 3la container frame */
+}
+
+/* 💡 Kul row ghadi y-koun layout flex landscape horizontal layout block */
+.row {
+    display: flex;
+    justify-content: space-between; /* 💡 Spacing dynamic equal structure mabin l-buttons */
+    margin-bottom: 10px; /* Spacing mabin rows vertival alignment layout viewports layout style */
+}
+
+button {
+    width: 65px; /* Size alignment block static format style fixed widths dimensions variables matrix context components sizes */
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #1a1212; /* Visual interface feedback validation interaction layer logic dynamics trigger component engine views definitions tracking */
+}
